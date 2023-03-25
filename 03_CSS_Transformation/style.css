@@ -8,7 +8,13 @@ body {
 }
 
 div {
+    transition: 2s all ease;
     background: #fb6f92;
     width: 20rem;
     height: 20rem;
+}
+
+div:hover {
+    background-color: #b8c0ff;
+    transform: rotate(45deg) scale(1.2);
 }
